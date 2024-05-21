@@ -1,6 +1,7 @@
 
 Arma 3 Tactical Airlift Mission
 SQF Scripted Mission
+Updated as of 20 May 2024
 
 This is for LLM context to help expand the mission using SQF. Add any relevant arma 3 docs to the bottom, use a large context model.
 
