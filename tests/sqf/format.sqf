@@ -1,0 +1,18 @@
+[   ["assertEqual",     { format ["%"]; }, ""],
+    ["assertEqual",     { format ["%1"]; }, ""],
+    ["assertEqual",     { format ["%2", 1]; }, ""],
+    ["assertEqual",     { format ["%%"]; }, ""],
+    ["assertEqual",     { format ["%%%"]; }, ""],
+    ["assertEqual",     { format ["%1", true]; }, "true"],
+    ["assertEqual",     { format ["%1", false]; }, "false"],
+    ["assertEqual",     { format ["%1", 1]; }, "1"],
+    ["assertEqual",     { format ["%1", []]; }, "[]"],
+    ["assertEqual",     { format ["%1", [1,2,3]]; }, "[1,2,3]"],
+    ["assertEqual",     { format ["%1", [[]]]; }, "[[]]"],
+    ["assertEqual",     { format ["%1", "test"]; }, "test"],
+    ["assertEqual",     { format [] }, ""],
+    ["assertEqual",     { format [true] }, ""],
+    ["assertEqual",     { format ["%a"] }, ""],
+    ["assertEqual",     { format ["%5"] }, ""],
+    ["assertEqual",     { format ["%1, %2, %3, %4, %5, %6, %7, %8, %9, %10, %11", 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10] }, "0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10"]
+]
