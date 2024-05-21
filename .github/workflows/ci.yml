@@ -1,31 +1,4 @@
 
-Skip to content
-Navigation Menu
-
-    SQFvm
-    /
-    runtime
-
-Code
-Issues 14
-Pull requests
-Discussions
-Actions
-Projects
-Wiki
-Security
-
-    Insights
-
-CI
-adding include tracking callback #391
-
-Jobs
-
-Run details
-
-Workflow file for this run
-.github/workflows/ci.yml at ea17a9f
 name: CI
 
 on: [push, pull_request]
