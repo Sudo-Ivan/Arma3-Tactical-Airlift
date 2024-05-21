@@ -4,5 +4,7 @@ A work in progress logistics-based mission using Reaction Forces CDLC context me
 
 We intend to add an improved focus on ground ops and more configurable parameters.
 
-Join our Revolt Server!
+You can use LLM-context.md to provide LLM models with context for mission development. Note that all models are poorly trained on SQF code and could waste your time if you approach it with a complex SQF scripting task.
+
+Join our Revolt Server:
 https://rvlt.gg/jDHR77e4
